@@ -15,6 +15,13 @@
 
 - [AbrarKhan/G3_Frameworks_av_CVE-2024-0023](https://github.com/AbrarKhan/G3_Frameworks_av_CVE-2024-0023)
 
+### CVE-2024-0030 (2024-02-16)
+
+<code>In btif_to_bta_response of btif_gatt_util.cc, there is a possible out of bounds read due to an incorrect bounds check. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [uthrasri/system_bt_CVE-2024-0030](https://github.com/uthrasri/system_bt_CVE-2024-0030)
+
 ### CVE-2024-0039 (2024-03-11)
 
 <code>In attp_build_value_cmd of att_protocol.cc, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.
@@ -793,6 +800,7 @@
 - [a-roshbaik/CVE-2024-4577](https://github.com/a-roshbaik/CVE-2024-4577)
 - [a-roshbaik/CVE-2024-4577-PHP-RCE](https://github.com/a-roshbaik/CVE-2024-4577-PHP-RCE)
 - [Jcccccx/CVE-2024-4577](https://github.com/Jcccccx/CVE-2024-4577)
+- [ManuelKy08/CVE-2024-4577---RR](https://github.com/ManuelKy08/CVE-2024-4577---RR)
 
 ### CVE-2024-4701 (2024-05-10)
 
@@ -1127,6 +1135,7 @@
 </code>
 
 - [zangjiahe/CVE-2024-6782](https://github.com/zangjiahe/CVE-2024-6782)
+- [jdpsl/CVE-2024-6782](https://github.com/jdpsl/CVE-2024-6782)
 
 ### CVE-2024-7339 (2024-08-01)
 
@@ -1714,6 +1723,13 @@
 - [0x20c/CVE-2024-23692-EXP](https://github.com/0x20c/CVE-2024-23692-EXP)
 - [pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692](https://github.com/pradeepboo/Rejetto-HFS-2.x-RCE-CVE-2024-23692)
 
+### CVE-2024-23708 (2024-05-07)
+
+<code>In multiple functions of NotificationManagerService.java, there is a possible way to not show a toast message when a clipboard message has been accessed. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [uthrasri/CVE-2024-23708](https://github.com/uthrasri/CVE-2024-23708)
+
 ### CVE-2024-23722 (2024-03-26)
 
 <code>In Fluent Bit 2.1.8 through 2.2.1, a NULL pointer dereference can be caused via an invalid HTTP payload with the content type of x-www-form-urlencoded. It crashes and does not restart. This could result in logs not being delivered properly.
@@ -2243,6 +2259,13 @@
 </code>
 
 - [0xNslabs/CVE-2024-25832-PoC](https://github.com/0xNslabs/CVE-2024-25832-PoC)
+
+### CVE-2024-25897 (2024-02-21)
+
+<code>ChurchCRM 5.5.0 FRCatalog.php is vulnerable to Blind SQL Injection (Time-based) via the CurrentFundraiser GET parameter.
+</code>
+
+- [i-100-user/CVE-2024-25897](https://github.com/i-100-user/CVE-2024-25897)
 
 ### CVE-2024-26026 (2024-05-08)
 
@@ -3237,6 +3260,7 @@
 - [Phantom-IN/CVE-2024-34102](https://github.com/Phantom-IN/CVE-2024-34102)
 - [etx-Arn/CVE-2024-34102-RCE](https://github.com/etx-Arn/CVE-2024-34102-RCE)
 - [etx-Arn/CVE-2024-34102-RCE-PoC](https://github.com/etx-Arn/CVE-2024-34102-RCE-PoC)
+- [wubinworks/magento2-cosmic-sting-patch](https://github.com/wubinworks/magento2-cosmic-sting-patch)
 
 ### CVE-2024-34144 (2024-05-02)
 
@@ -3689,6 +3713,17 @@
 
 - [varwara/CVE-2024-38041](https://github.com/varwara/CVE-2024-38041)
 
+### CVE-2024-38077 (2024-07-09)
+
+<code>Windows Remote Desktop Licensing Service Remote Code Execution Vulnerability
+</code>
+
+- [CloudCrowSec001/CVE-2024-38077-POC](https://github.com/CloudCrowSec001/CVE-2024-38077-POC)
+- [qi4L/CVE-2024-38077](https://github.com/qi4L/CVE-2024-38077)
+- [Sec-Link/CVE-2024-38077](https://github.com/Sec-Link/CVE-2024-38077)
+- [murphysecurity/RDL-detect](https://github.com/murphysecurity/RDL-detect)
+- [Wlibang/CVE-2024-38077](https://github.com/Wlibang/CVE-2024-38077)
+
 ### CVE-2024-38100 (2024-07-09)
 
 <code>Windows File Explorer Elevation of Privilege Vulnerability
@@ -3911,6 +3946,9 @@
 
 - [Dirac231/CVE-2024-40498](https://github.com/Dirac231/CVE-2024-40498)
 
+### CVE-2024-40500
+- [nitipoom-jar/CVE-2024-40500](https://github.com/nitipoom-jar/CVE-2024-40500)
+
 ### CVE-2024-40506
 - [Jansen-C-Moreira/CVE-2024-40506](https://github.com/Jansen-C-Moreira/CVE-2024-40506)
 
@@ -3984,6 +4022,9 @@
 
 - [alemusix/CVE-2024-41640](https://github.com/alemusix/CVE-2024-41640)
 
+### CVE-2024-41651
+- [Fckroun/CVE-2024-41651](https://github.com/Fckroun/CVE-2024-41651)
+
 ### CVE-2024-41662 (2024-07-24)
 
 <code>VNote is a note-taking platform. A Cross-Site Scripting (XSS) vulnerability has been identified in the Markdown rendering functionality of versions 3.18.1 and prior of the VNote note-taking application. This vulnerability allows the injection and execution of arbitrary JavaScript code through which remote code execution can be achieved. A patch for this issue is available at commit f1af78573a0ef51d6ef6a0bc4080cddc8f30a545. Other mitigation strategies include implementing rigorous input sanitization for all Markdown content and utilizing a secure Markdown parser that appropriately escapes or strips potentially dangerous content.
@@ -4004,6 +4045,13 @@
 </code>
 
 - [fevar54/CVE-2024-42461](https://github.com/fevar54/CVE-2024-42461)
+
+### CVE-2024-43044 (2024-08-07)
+
+<code>Jenkins 2.470 and earlier, LTS 2.452.3 and earlier allows agent processes to read arbitrary files from the Jenkins controller file system by using the `ClassLoaderProxy#fetchJar` method in the Remoting library.
+</code>
+
+- [HwMex0/CVE-2024-43044](https://github.com/HwMex0/CVE-2024-43044)
 
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
@@ -4215,7 +4263,7 @@
 
 - [diego-tella/CVE-2023-1326-PoC](https://github.com/diego-tella/CVE-2023-1326-PoC)
 - [Pol-Ruiz/CVE-2023-1326](https://github.com/Pol-Ruiz/CVE-2023-1326)
-- [Sp3c73rSh4d0w/CVE-2023-1326](https://github.com/Sp3c73rSh4d0w/CVE-2023-1326)
+- [N3rdyN3xus/CVE-2023-1326](https://github.com/N3rdyN3xus/CVE-2023-1326)
 - [cve-2024/CVE-2023-1326-PoC](https://github.com/cve-2024/CVE-2023-1326-PoC)
 
 ### CVE-2023-1337 (2023-03-10)
@@ -6343,7 +6391,7 @@
 - [0xWhoami35/CVE-2023-23752](https://github.com/0xWhoami35/CVE-2023-23752)
 - [mariovata/CVE-2023-23752-Python](https://github.com/mariovata/CVE-2023-23752-Python)
 - [0xx01/CVE-2023-23752](https://github.com/0xx01/CVE-2023-23752)
-- [Sp3c73rSh4d0w/CVE-2023-23752](https://github.com/Sp3c73rSh4d0w/CVE-2023-23752)
+- [N3rdyN3xus/CVE-2023-23752](https://github.com/N3rdyN3xus/CVE-2023-23752)
 - [mil4ne/CVE-2023-23752-Joomla-v4.2.8](https://github.com/mil4ne/CVE-2023-23752-Joomla-v4.2.8)
 
 ### CVE-2023-23924 (2023-01-31)
@@ -13330,13 +13378,6 @@
 - [puckiestyle/CVE-2022-20699](https://github.com/puckiestyle/CVE-2022-20699)
 - [rohankumardubey/CVE-2022-20699](https://github.com/rohankumardubey/CVE-2022-20699)
 
-### CVE-2022-20713 (2022-08-10)
-
-<code>A vulnerability in the VPN web client services component of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to conduct browser-based attacks against users of an affected device. This vulnerability is due to improper validation of input that is passed to the VPN web client services component before being returned to the browser that is in use. An attacker could exploit this vulnerability by persuading a user to visit a website that is designed to pass malicious requests to a device that is running Cisco ASA Software or Cisco FTD Software and has web services endpoints supporting VPN features enabled. A successful exploit could allow the attacker to reflect malicious input from the affected device to the browser that is in use and conduct browser-based attacks, including cross-site scripting attacks. The attacker could not directly impact the affected device.
-</code>
-
-- [s1d6point7bugcrowd/CVE-2022-20713-Vulnerability-Detection-Script](https://github.com/s1d6point7bugcrowd/CVE-2022-20713-Vulnerability-Detection-Script)
-
 ### CVE-2022-20818 (2022-09-28)
 
 <code>Multiple vulnerabilities in the CLI of Cisco SD-WAN Software could allow an authenticated, local attacker to gain elevated privileges. These vulnerabilities are due to improper access controls on commands within the application CLI. An attacker could exploit these vulnerabilities by running a malicious command on the application CLI. A successful exploit could allow the attacker to execute arbitrary commands as the root user.
@@ -15597,7 +15638,7 @@
 - [gpiechnik2/nmap-CVE-2022-29464](https://github.com/gpiechnik2/nmap-CVE-2022-29464)
 - [0xAgun/CVE-2022-29464](https://github.com/0xAgun/CVE-2022-29464)
 - [oppsec/WSOB](https://github.com/oppsec/WSOB)
-- [Sp3c73rSh4d0w/CVE-2022-29464](https://github.com/Sp3c73rSh4d0w/CVE-2022-29464)
+- [N3rdyN3xus/CVE-2022-29464](https://github.com/N3rdyN3xus/CVE-2022-29464)
 - [lowkey0808/cve-2022-29464](https://github.com/lowkey0808/cve-2022-29464)
 - [superzerosec/CVE-2022-29464](https://github.com/superzerosec/CVE-2022-29464)
 - [axin2019/CVE-2022-29464](https://github.com/axin2019/CVE-2022-29464)
@@ -16263,6 +16304,7 @@
 - [drcayber/RCE](https://github.com/drcayber/RCE)
 - [Chocapikk/CVE-2022-31814](https://github.com/Chocapikk/CVE-2022-31814)
 - [dkstar11q/CVE-2022-31814](https://github.com/dkstar11q/CVE-2022-31814)
+- [Laburity/CVE-2022-31814](https://github.com/Laburity/CVE-2022-31814)
 
 ### CVE-2022-31854 (2022-07-07)
 
@@ -17647,7 +17689,7 @@
 </code>
 
 - [yosef0x01/CVE-2022-41544](https://github.com/yosef0x01/CVE-2022-41544)
-- [Sp3c73rSh4d0w/CVE-2022-41544](https://github.com/Sp3c73rSh4d0w/CVE-2022-41544)
+- [N3rdyN3xus/CVE-2022-41544](https://github.com/N3rdyN3xus/CVE-2022-41544)
 
 ### CVE-2022-41622 (2022-12-07)
 
@@ -19877,7 +19919,7 @@
 - [moldabekov/CVE-2021-4034](https://github.com/moldabekov/CVE-2021-4034)
 - [jostmart/-CVE-2021-4034](https://github.com/jostmart/-CVE-2021-4034)
 - [c3l3si4n/pwnkit](https://github.com/c3l3si4n/pwnkit)
-- [Sp3c73rSh4d0w/CVE-2021-4034](https://github.com/Sp3c73rSh4d0w/CVE-2021-4034)
+- [N3rdyN3xus/CVE-2021-4034](https://github.com/N3rdyN3xus/CVE-2021-4034)
 - [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
 - [san3ncrypt3d/CVE-2021-4034-POC](https://github.com/san3ncrypt3d/CVE-2021-4034-POC)
 - [fdellwing/CVE-2021-4034](https://github.com/fdellwing/CVE-2021-4034)
@@ -19993,7 +20035,7 @@
 - [fei9747/CVE-2021-4034](https://github.com/fei9747/CVE-2021-4034)
 - [pyhrr0/pwnkit](https://github.com/pyhrr0/pwnkit)
 - [mutur4/CVE-2021-4034](https://github.com/mutur4/CVE-2021-4034)
-- [Sp3c73rSh4d0w/CVE-2021-4034_Python3](https://github.com/Sp3c73rSh4d0w/CVE-2021-4034_Python3)
+- [N3rdyN3xus/CVE-2021-4034_Python3](https://github.com/N3rdyN3xus/CVE-2021-4034_Python3)
 - [TheSermux/CVE-2021-4034](https://github.com/TheSermux/CVE-2021-4034)
 - [ps-interactive/lab_cve-2021-4034-polkit-emulation-and-detection](https://github.com/ps-interactive/lab_cve-2021-4034-polkit-emulation-and-detection)
 - [asepsaepdin/CVE-2021-4034](https://github.com/asepsaepdin/CVE-2021-4034)
@@ -21159,7 +21201,6 @@
 - [rakjong/CVE-2021-26295-Apache-OFBiz](https://github.com/rakjong/CVE-2021-26295-Apache-OFBiz)
 - [dskho/CVE-2021-26295](https://github.com/dskho/CVE-2021-26295)
 - [coolyin001/CVE-2021-26295--](https://github.com/coolyin001/CVE-2021-26295--)
-- [S0por/CVE-2021-26295-Apache-OFBiz-EXP](https://github.com/S0por/CVE-2021-26295-Apache-OFBiz-EXP)
 - [yuaneuro/ofbiz-poc](https://github.com/yuaneuro/ofbiz-poc)
 
 ### CVE-2021-26411 (2021-03-11)
@@ -26209,7 +26250,7 @@
 </code>
 
 - [yardenshafir/CVE-2020-1034](https://github.com/yardenshafir/CVE-2020-1034)
-- [GeorgyFirsov/CVE-2020-1034](https://github.com/GeorgyFirsov/CVE-2020-1034)
+- [GeorgiiFirsov/CVE-2020-1034](https://github.com/GeorgiiFirsov/CVE-2020-1034)
 
 ### CVE-2020-1048 (2020-05-21)
 
@@ -26843,7 +26884,7 @@
 </code>
 
 - [und3sc0n0c1d0/AFR-in-OMSA](https://github.com/und3sc0n0c1d0/AFR-in-OMSA)
-- [Sp3c73rSh4d0w/CVE-2020-5377](https://github.com/Sp3c73rSh4d0w/CVE-2020-5377)
+- [N3rdyN3xus/CVE-2020-5377](https://github.com/N3rdyN3xus/CVE-2020-5377)
 
 ### CVE-2020-5398 (2020-01-16)
 
@@ -27501,7 +27542,7 @@
 </code>
 
 - [knqyf263/CVE-2020-8617](https://github.com/knqyf263/CVE-2020-8617)
-- [rmkn/cve-2020-8617](https://github.com/rmkn/cve-2020-8617)
+- [gothburz/cve-2020-8617](https://github.com/gothburz/cve-2020-8617)
 
 ### CVE-2020-8635 (2020-03-06)
 
@@ -29809,7 +29850,6 @@
 </code>
 
 - [MzzdToT/CVE-2020-25078](https://github.com/MzzdToT/CVE-2020-25078)
-- [S0por/CVE-2020-25078](https://github.com/S0por/CVE-2020-25078)
 - [chinaYozz/CVE-2020-25078](https://github.com/chinaYozz/CVE-2020-25078)
 
 ### CVE-2020-25134 (2020-09-25)
@@ -31787,7 +31827,7 @@
 - [Billith/CVE-2019-5736-PoC](https://github.com/Billith/CVE-2019-5736-PoC)
 - [BBRathnayaka/POC-CVE-2019-5736](https://github.com/BBRathnayaka/POC-CVE-2019-5736)
 - [shen54/IT19172088](https://github.com/shen54/IT19172088)
-- [Sp3c73rSh4d0w/CVE-2019-5736](https://github.com/Sp3c73rSh4d0w/CVE-2019-5736)
+- [N3rdyN3xus/CVE-2019-5736](https://github.com/N3rdyN3xus/CVE-2019-5736)
 - [fahmifj/Docker-breakout-runc](https://github.com/fahmifj/Docker-breakout-runc)
 - [Asbatel/CVE-2019-5736_POC](https://github.com/Asbatel/CVE-2019-5736_POC)
 - [takumak/cve-2019-5736-reproducer](https://github.com/takumak/cve-2019-5736-reproducer)
@@ -31954,7 +31994,7 @@
 - [fs0c131y/ESFileExplorerOpenPortVuln](https://github.com/fs0c131y/ESFileExplorerOpenPortVuln)
 - [SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447](https://github.com/SandaRuFdo/ES-File-Explorer-Open-Port-Vulnerability---CVE-2019-6447)
 - [Nehal-Zaman/CVE-2019-6447](https://github.com/Nehal-Zaman/CVE-2019-6447)
-- [Sp3c73rSh4d0w/CVE-2019-6447](https://github.com/Sp3c73rSh4d0w/CVE-2019-6447)
+- [N3rdyN3xus/CVE-2019-6447](https://github.com/N3rdyN3xus/CVE-2019-6447)
 - [julio-cfa/POC-ES-File-Explorer-CVE-2019-6447](https://github.com/julio-cfa/POC-ES-File-Explorer-CVE-2019-6447)
 - [febinrev/CVE-2019-6447-ESfile-explorer-exploit](https://github.com/febinrev/CVE-2019-6447-ESfile-explorer-exploit)
 - [Kayky-cmd/CVE-2019-6447--.](https://github.com/Kayky-cmd/CVE-2019-6447--.)
@@ -32333,7 +32373,7 @@
 </code>
 
 - [SUNNYSAINI01001/46635.py_CVE-2019-9053](https://github.com/SUNNYSAINI01001/46635.py_CVE-2019-9053)
-- [Sp3c73rSh4d0w/CVE-2019-9053](https://github.com/Sp3c73rSh4d0w/CVE-2019-9053)
+- [N3rdyN3xus/CVE-2019-9053](https://github.com/N3rdyN3xus/CVE-2019-9053)
 - [maraspiras/46635.py](https://github.com/maraspiras/46635.py)
 - [e-renna/CVE-2019-9053](https://github.com/e-renna/CVE-2019-9053)
 - [zmiddle/Simple_CMS_SQLi](https://github.com/zmiddle/Simple_CMS_SQLi)
@@ -33535,7 +33575,7 @@
 - [M108Falcon/Sudo-CVE-2019-14287](https://github.com/M108Falcon/Sudo-CVE-2019-14287)
 - [edsonjt81/CVE-2019-14287-](https://github.com/edsonjt81/CVE-2019-14287-)
 - [DularaAnushka/Linux-Privilege-Escalation-using-Sudo-Rights](https://github.com/DularaAnushka/Linux-Privilege-Escalation-using-Sudo-Rights)
-- [Sp3c73rSh4d0w/CVE-2019-14287](https://github.com/Sp3c73rSh4d0w/CVE-2019-14287)
+- [N3rdyN3xus/CVE-2019-14287](https://github.com/N3rdyN3xus/CVE-2019-14287)
 - [Hasintha-98/Sudo-Vulnerability-Exploit-CVE-2019-14287](https://github.com/Hasintha-98/Sudo-Vulnerability-Exploit-CVE-2019-14287)
 - [5l1v3r1/cve-2019-14287sudoexp](https://github.com/5l1v3r1/cve-2019-14287sudoexp)
 - [MariliaMeira/CVE-2019-14287](https://github.com/MariliaMeira/CVE-2019-14287)
@@ -33926,7 +33966,7 @@
 - [Kr0ff/cve-2019-16278](https://github.com/Kr0ff/cve-2019-16278)
 - [NHPT/CVE-2019-16278](https://github.com/NHPT/CVE-2019-16278)
 - [keshiba/cve-2019-16278](https://github.com/keshiba/cve-2019-16278)
-- [Sp3c73rSh4d0w/CVE-2019-16278](https://github.com/Sp3c73rSh4d0w/CVE-2019-16278)
+- [N3rdyN3xus/CVE-2019-16278](https://github.com/N3rdyN3xus/CVE-2019-16278)
 - [alexander-fernandes/CVE-2019-16278](https://github.com/alexander-fernandes/CVE-2019-16278)
 - [FredBrave/CVE-2019-16278-Nostromo-1.9.6-RCE](https://github.com/FredBrave/CVE-2019-16278-Nostromo-1.9.6-RCE)
 - [0xTabun/CVE-2019-16278](https://github.com/0xTabun/CVE-2019-16278)
@@ -37547,7 +37587,7 @@
 - [kxisxr/Bash-Script-CVE-2018-16763](https://github.com/kxisxr/Bash-Script-CVE-2018-16763)
 - [padsalatushal/CVE-2018-16763](https://github.com/padsalatushal/CVE-2018-16763)
 - [wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763](https://github.com/wizardy0ga/THM-Vulnerability_Capstone-CVE-2018-16763)
-- [Sp3c73rSh4d0w/CVE-2018-16763](https://github.com/Sp3c73rSh4d0w/CVE-2018-16763)
+- [N3rdyN3xus/CVE-2018-16763](https://github.com/N3rdyN3xus/CVE-2018-16763)
 - [BrunoPincho/cve-2018-16763-rust](https://github.com/BrunoPincho/cve-2018-16763-rust)
 - [NaturalT314/CVE-2018-16763](https://github.com/NaturalT314/CVE-2018-16763)
 - [p0dalirius/CVE-2018-16763-FuelCMS-1.4.1-RCE](https://github.com/p0dalirius/CVE-2018-16763-FuelCMS-1.4.1-RCE)
@@ -38334,7 +38374,7 @@
 
 - [valarauco/wannafind](https://github.com/valarauco/wannafind)
 - [NatteeSetobol/Etern-blue-Windows-7-Checker](https://github.com/NatteeSetobol/Etern-blue-Windows-7-Checker)
-- [Sp3c73rSh4d0w/MS17-010_CVE-2017-0143](https://github.com/Sp3c73rSh4d0w/MS17-010_CVE-2017-0143)
+- [N3rdyN3xus/MS17-010_CVE-2017-0143](https://github.com/N3rdyN3xus/MS17-010_CVE-2017-0143)
 - [SampatDhakal/Metasploit-Attack-Report](https://github.com/SampatDhakal/Metasploit-Attack-Report)
 
 ### CVE-2017-0144 (2017-03-17)
@@ -39128,7 +39168,7 @@
 - [mirrorblack/CVE-2017-7269](https://github.com/mirrorblack/CVE-2017-7269)
 - [Al1ex/CVE-2017-7269](https://github.com/Al1ex/CVE-2017-7269)
 - [ThanHuuTuan/CVE-2017-7269](https://github.com/ThanHuuTuan/CVE-2017-7269)
-- [Sp3c73rSh4d0w/CVE-2017-7269](https://github.com/Sp3c73rSh4d0w/CVE-2017-7269)
+- [N3rdyN3xus/CVE-2017-7269](https://github.com/N3rdyN3xus/CVE-2017-7269)
 - [denchief1/CVE-2017-7269_Python3](https://github.com/denchief1/CVE-2017-7269_Python3)
 - [denchief1/CVE-2017-7269](https://github.com/denchief1/CVE-2017-7269)
 - [Cappricio-Securities/CVE-2017-7269](https://github.com/Cappricio-Securities/CVE-2017-7269)
@@ -40877,7 +40917,7 @@
 <code>Exim before 4.86.2, when installed setuid root, allows local users to gain privileges via the perl_startup argument.
 </code>
 
-- [Sp3c73rSh4d0w/CVE-2016-1531](https://github.com/Sp3c73rSh4d0w/CVE-2016-1531)
+- [N3rdyN3xus/CVE-2016-1531](https://github.com/N3rdyN3xus/CVE-2016-1531)
 
 ### CVE-2016-1542 (2016-06-13)
 
@@ -42155,8 +42195,8 @@
 - [bongbongco/MS15-034](https://github.com/bongbongco/MS15-034)
 - [aedoo/CVE-2015-1635-POC](https://github.com/aedoo/CVE-2015-1635-POC)
 - [limkokholefork/CVE-2015-1635](https://github.com/limkokholefork/CVE-2015-1635)
-- [Sp3c73rSh4d0w/CVE-2015-1635-POC](https://github.com/Sp3c73rSh4d0w/CVE-2015-1635-POC)
-- [Sp3c73rSh4d0w/CVE-2015-1635](https://github.com/Sp3c73rSh4d0w/CVE-2015-1635)
+- [N3rdyN3xus/CVE-2015-1635-POC](https://github.com/N3rdyN3xus/CVE-2015-1635-POC)
+- [N3rdyN3xus/CVE-2015-1635](https://github.com/N3rdyN3xus/CVE-2015-1635)
 - [w01ke/CVE-2015-1635-POC](https://github.com/w01ke/CVE-2015-1635-POC)
 - [SkinAir/ms15-034-Scan](https://github.com/SkinAir/ms15-034-Scan)
 - [Cappricio-Securities/CVE-2015-1635](https://github.com/Cappricio-Securities/CVE-2015-1635)
@@ -42656,7 +42696,7 @@
 </code>
 
 - [G01d3nW01f/CVE-2015-6668](https://github.com/G01d3nW01f/CVE-2015-6668)
-- [Sp3c73rSh4d0w/CVE-2015-6668](https://github.com/Sp3c73rSh4d0w/CVE-2015-6668)
+- [N3rdyN3xus/CVE-2015-6668](https://github.com/N3rdyN3xus/CVE-2015-6668)
 - [jimdiroffii/CVE-2015-6668](https://github.com/jimdiroffii/CVE-2015-6668)
 
 ### CVE-2015-6748 (2017-09-25)
@@ -42973,7 +43013,7 @@
 - [ingochris/heartpatch.us](https://github.com/ingochris/heartpatch.us)
 - [BelminD/heartbleed](https://github.com/BelminD/heartbleed)
 - [pierceoneill/bleeding-heart](https://github.com/pierceoneill/bleeding-heart)
-- [Sp3c73rSh4d0w/CVE-2014-0160_Heartbleed](https://github.com/Sp3c73rSh4d0w/CVE-2014-0160_Heartbleed)
+- [N3rdyN3xus/CVE-2014-0160_Heartbleed](https://github.com/N3rdyN3xus/CVE-2014-0160_Heartbleed)
 - [GardeniaWhite/fuzzing](https://github.com/GardeniaWhite/fuzzing)
 - [undacmic/heartbleed-proof-of-concept](https://github.com/undacmic/heartbleed-proof-of-concept)
 - [cbk914/heartbleed-checker](https://github.com/cbk914/heartbleed-checker)
@@ -44453,7 +44493,7 @@
 </code>
 
 - [Madusanka99/OHTS](https://github.com/Madusanka99/OHTS)
-- [Sp3c73rSh4d0w/CVE-2011-1249](https://github.com/Sp3c73rSh4d0w/CVE-2011-1249)
+- [N3rdyN3xus/CVE-2011-1249](https://github.com/N3rdyN3xus/CVE-2011-1249)
 
 ### CVE-2011-1473 (2012-06-16)
 
@@ -44905,7 +44945,7 @@
 </code>
 
 - [zaphoxx/zaphoxx-coldfusion](https://github.com/zaphoxx/zaphoxx-coldfusion)
-- [Sp3c73rSh4d0w/CVE-2009-2265](https://github.com/Sp3c73rSh4d0w/CVE-2009-2265)
+- [N3rdyN3xus/CVE-2009-2265](https://github.com/N3rdyN3xus/CVE-2009-2265)
 - [p1ckzi/CVE-2009-2265](https://github.com/p1ckzi/CVE-2009-2265)
 - [0xConstant/CVE-2009-2265](https://github.com/0xConstant/CVE-2009-2265)
 
@@ -45197,7 +45237,7 @@
 - [mr-l0n3lly/CVE-2007-2447](https://github.com/mr-l0n3lly/CVE-2007-2447)
 - [HerculesRD/PyUsernameMapScriptRCE](https://github.com/HerculesRD/PyUsernameMapScriptRCE)
 - [Aviksaikat/CVE-2007-2447](https://github.com/Aviksaikat/CVE-2007-2447)
-- [Sp3c73rSh4d0w/CVE-2007-2447](https://github.com/Sp3c73rSh4d0w/CVE-2007-2447)
+- [N3rdyN3xus/CVE-2007-2447](https://github.com/N3rdyN3xus/CVE-2007-2447)
 - [bdunlap9/CVE-2007-2447_python](https://github.com/bdunlap9/CVE-2007-2447_python)
 - [MikeRega7/CVE-2007-2447-RCE](https://github.com/MikeRega7/CVE-2007-2447-RCE)
 - [0xTabun/CVE-2007-2447](https://github.com/0xTabun/CVE-2007-2447)
@@ -45474,7 +45514,7 @@
 <code>distcc 2.x, as used in XCode 1.5 and others, when not configured to restrict access to the server port, allows remote attackers to execute arbitrary commands via compilation jobs, which are executed by the server without authorization checks.
 </code>
 
-- [Sp3c73rSh4d0w/distccd_rce_CVE-2004-2687](https://github.com/Sp3c73rSh4d0w/distccd_rce_CVE-2004-2687)
+- [N3rdyN3xus/distccd_rce_CVE-2004-2687](https://github.com/N3rdyN3xus/distccd_rce_CVE-2004-2687)
 - [k4miyo/CVE-2004-2687](https://github.com/k4miyo/CVE-2004-2687)
 - [ss0wl/CVE-2004-2687_distcc_v1](https://github.com/ss0wl/CVE-2004-2687_distcc_v1)
 
