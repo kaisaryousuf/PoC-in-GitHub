@@ -536,6 +536,7 @@
 - [c0d3zilla/CVE-2024-2876](https://github.com/c0d3zilla/CVE-2024-2876)
 - [Quantum-Hacker/CVE-2024-2876](https://github.com/Quantum-Hacker/CVE-2024-2876)
 - [0xAgun/CVE-2024-2876](https://github.com/0xAgun/CVE-2024-2876)
+- [skyrowalker/CVE-2024-2876](https://github.com/skyrowalker/CVE-2024-2876)
 
 ### CVE-2024-2879 (2024-04-03)
 
@@ -895,6 +896,7 @@
 - [MielPopsssssss/CVE-2024-4439](https://github.com/MielPopsssssss/CVE-2024-4439)
 - [d0rb/CVE-2024-4439](https://github.com/d0rb/CVE-2024-4439)
 - [xssor-dz/-CVE-2024-4439](https://github.com/xssor-dz/-CVE-2024-4439)
+- [soltanali0/CVE-2024-4439](https://github.com/soltanali0/CVE-2024-4439)
 
 ### CVE-2024-4443 (2024-05-22)
 
@@ -1326,7 +1328,7 @@
 - [Sibijo/mitigate_ssh](https://github.com/Sibijo/mitigate_ssh)
 - [Passyed/regreSSHion-Fix](https://github.com/Passyed/regreSSHion-Fix)
 - [k4t3pr0/CVE-2024-6387-Check](https://github.com/k4t3pr0/CVE-2024-6387-Check)
-- [Jhonsonwannaa/CVE-2024-6387](https://github.com/Jhonsonwannaa/CVE-2024-6387)
+- [dream434/CVE-2024-6387](https://github.com/dream434/CVE-2024-6387)
 - [ThatNotEasy/CVE-2024-6387](https://github.com/ThatNotEasy/CVE-2024-6387)
 - [prelearn-code/CVE-2024-6387](https://github.com/prelearn-code/CVE-2024-6387)
 - [l-urk/CVE-2024-6387](https://github.com/l-urk/CVE-2024-6387)
@@ -1361,13 +1363,6 @@
 </code>
 
 - [RandomRobbieBF/CVE-2024-6624](https://github.com/RandomRobbieBF/CVE-2024-6624)
-
-### CVE-2024-6646 (2024-07-10)
-
-<code>Eine problematische Schwachstelle wurde in Netgear WN604 bis 20240710 ausgemacht. Dies betrifft einen unbekannten Teil der Datei /downloadFile.php der Komponente Web Interface. Dank Manipulation des Arguments file mit der Eingabe config mit unbekannten Daten kann eine information disclosure-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
-</code>
-
-- [inviewp/CVE-2024-6646](https://github.com/inviewp/CVE-2024-6646)
 
 ### CVE-2024-6670 (2024-08-29)
 
@@ -1553,6 +1548,9 @@
 
 - [Avento/CVE-2024-8522](https://github.com/Avento/CVE-2024-8522)
 
+### CVE-2024-8698
+- [huydoppaz/CVE-2024-8698-POC](https://github.com/huydoppaz/CVE-2024-8698-POC)
+
 ### CVE-2024-8752 (2024-09-16)
 
 <code>The Windows version of WebIQ 2.15.9 is affected by a directory traversal vulnerability that allows remote attackers to read any file on the system.
@@ -1575,8 +1573,26 @@
 ### CVE-2024-9166
 - [Andrysqui/CVE-2024-9166](https://github.com/Andrysqui/CVE-2024-9166)
 
+### CVE-2024-9379
+- [nothe1senberg/CVE-2024-9379](https://github.com/nothe1senberg/CVE-2024-9379)
+
+### CVE-2024-9380
+- [nothe1senberg/CVE-2024-9380](https://github.com/nothe1senberg/CVE-2024-9380)
+
 ### CVE-2024-9441
 - [adhikara13/CVE-2024-9441](https://github.com/adhikara13/CVE-2024-9441)
+- [abhishekrautela/CVE-2024-9441](https://github.com/abhishekrautela/CVE-2024-9441)
+
+### CVE-2024-9463
+- [nothe1senberg/CVE-2024-9463](https://github.com/nothe1senberg/CVE-2024-9463)
+
+### CVE-2024-9464
+- [horizon3ai/CVE-2024-9464](https://github.com/horizon3ai/CVE-2024-9464)
+- [nothe1senberg/CVE-2024-9464](https://github.com/nothe1senberg/CVE-2024-9464)
+
+### CVE-2024-9465
+- [horizon3ai/CVE-2024-9465](https://github.com/horizon3ai/CVE-2024-9465)
+- [mustafaakalin/CVE-2024-9465](https://github.com/mustafaakalin/CVE-2024-9465)
 
 ### CVE-2024-12883
 - [mhtsec/cve-2024-12883](https://github.com/mhtsec/cve-2024-12883)
@@ -2158,6 +2174,13 @@
 - [horizon3ai/CVE-2024-23108](https://github.com/horizon3ai/CVE-2024-23108)
 - [hitem/CVE-2024-23108](https://github.com/hitem/CVE-2024-23108)
 
+### CVE-2024-23113 (2024-02-15)
+
+<code>A use of externally-controlled format string in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, FortiPAM versions 1.2.0, 1.1.0 through 1.1.2, 1.0.0 through 1.0.3, FortiSwitchManager versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.3 allows attacker to execute unauthorized code or commands via specially crafted packets.
+</code>
+
+- [nothe1senberg/CVE-2024-23113](https://github.com/nothe1senberg/CVE-2024-23113)
+
 ### CVE-2024-23208 (2024-01-23)
 
 <code>The issue was addressed with improved memory handling. This issue is fixed in macOS Sonoma 14.3, watchOS 10.3, tvOS 17.3, iOS 17.3 and iPadOS 17.3. An app may be able to execute arbitrary code with kernel privileges.
@@ -2653,6 +2676,7 @@
 - [LuisMateo1/Arbitrary-File-Read-CVE-2024-24919](https://github.com/LuisMateo1/Arbitrary-File-Read-CVE-2024-24919)
 - [AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-](https://github.com/AhmedMansour93/Event-ID-263-Rule-Name-SOC287---Arbitrary-File-Read-on-Checkpoint-Security-Gateway-CVE-2024-24919-)
 - [geniuszlyy/CVE-2024-24919](https://github.com/geniuszlyy/CVE-2024-24919)
+- [skyrowalker/CVE-2024-24919](https://github.com/skyrowalker/CVE-2024-24919)
 
 ### CVE-2024-25092 (2024-06-09)
 
@@ -3004,6 +3028,7 @@
 - [Stuub/RCity-CVE-2024-27198](https://github.com/Stuub/RCity-CVE-2024-27198)
 - [HPT-Intern-Task-Submission/CVE-2024-27198](https://github.com/HPT-Intern-Task-Submission/CVE-2024-27198)
 - [jrbH4CK/CVE-2024-27198](https://github.com/jrbH4CK/CVE-2024-27198)
+- [geniuszlyy/CVE-2024-27198](https://github.com/geniuszlyy/CVE-2024-27198)
 
 ### CVE-2024-27282 (-)
 
@@ -3322,7 +3347,7 @@
 - [wutalent/CVE-2024-29269](https://github.com/wutalent/CVE-2024-29269)
 - [YongYe-Security/CVE-2024-29269](https://github.com/YongYe-Security/CVE-2024-29269)
 - [Chocapikk/CVE-2024-29269](https://github.com/Chocapikk/CVE-2024-29269)
-- [Jhonsonwannaa/CVE-2024-29269](https://github.com/Jhonsonwannaa/CVE-2024-29269)
+- [dream434/CVE-2024-29269](https://github.com/dream434/CVE-2024-29269)
 - [K3ysTr0K3R/CVE-2024-29269-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2024-29269-EXPLOIT)
 - [hack-with-rohit/CVE-2024-29269-RCE](https://github.com/hack-with-rohit/CVE-2024-29269-RCE)
 - [Quantum-Hacker/CVE-2024-29269](https://github.com/Quantum-Hacker/CVE-2024-29269)
@@ -3656,7 +3681,7 @@
 </code>
 
 - [Chocapikk/CVE-2024-31819](https://github.com/Chocapikk/CVE-2024-31819)
-- [Jhonsonwannaa/CVE-2024-31819](https://github.com/Jhonsonwannaa/CVE-2024-31819)
+- [dream434/CVE-2024-31819](https://github.com/dream434/CVE-2024-31819)
 
 ### CVE-2024-31835
 - [paragbagul111/CVE-2024-31835](https://github.com/paragbagul111/CVE-2024-31835)
@@ -3860,7 +3885,6 @@
 - [Stuub/CVE-2024-32640-SQLI-MuraCMS](https://github.com/Stuub/CVE-2024-32640-SQLI-MuraCMS)
 - [0xYumeko/CVE-2024-32640-SQLI-MuraCMS](https://github.com/0xYumeko/CVE-2024-32640-SQLI-MuraCMS)
 - [sammings/CVE-2024-32640](https://github.com/sammings/CVE-2024-32640)
-- [inviewp/CVE-2024-32640](https://github.com/inviewp/CVE-2024-32640)
 
 ### CVE-2024-32651 (2024-04-25)
 
@@ -3979,7 +4003,7 @@
 - [Phantom-IN/CVE-2024-34102](https://github.com/Phantom-IN/CVE-2024-34102)
 - [wubinworks/magento2-cosmic-sting-patch](https://github.com/wubinworks/magento2-cosmic-sting-patch)
 - [EQSTLab/CVE-2024-34102](https://github.com/EQSTLab/CVE-2024-34102)
-- [Jhonsonwannaa/CVE-2024-34102](https://github.com/Jhonsonwannaa/CVE-2024-34102)
+- [dream434/CVE-2024-34102](https://github.com/dream434/CVE-2024-34102)
 - [bka/magento-cve-2024-34102-exploit-cosmicstring](https://github.com/bka/magento-cve-2024-34102-exploit-cosmicstring)
 
 ### CVE-2024-34144 (2024-05-02)
@@ -4565,6 +4589,7 @@
 - [atlassion/CVE-2024-38077-check](https://github.com/atlassion/CVE-2024-38077-check)
 - [BBD-YZZ/fyne-gui](https://github.com/BBD-YZZ/fyne-gui)
 - [Destiny0991/check_38077](https://github.com/Destiny0991/check_38077)
+- [mrmtwoj/CVE-2024-38077](https://github.com/mrmtwoj/CVE-2024-38077)
 
 ### CVE-2024-38080 (2024-07-09)
 
@@ -4671,8 +4696,8 @@
 <code>Applications serving static resources through the functional web frameworks WebMvc.fn or WebFlux.fn are vulnerable to path traversal attacks. An attacker can craft malicious HTTP requests and obtain any file on the file system that is also accessible to the process in which the Spring application is running.\n\nSpecifically, an application is vulnerable when both of the following are true:\n\n  *  the web application uses RouterFunctions to serve static resources\n  *  resource handling is explicitly configured with a FileSystemResource location\n\n\nHowever, malicious requests are blocked and rejected when any of the following is true:\n\n  *  the  Spring Security HTTP Firewall https://docs.spring.io/spring-security/reference/servlet/exploits/firewall.html  is in use\n  *  the application runs on Tomcat or Jetty
 </code>
 
-- [weliveby/cve-2024-38816-demo](https://github.com/weliveby/cve-2024-38816-demo)
-- [masa42/CVE-2024-38816-PoC](https://github.com/masa42/CVE-2024-38816-PoC)
+- [startsw1th/cve-2024-38816-demo](https://github.com/startsw1th/cve-2024-38816-demo)
+- [WULINPIN/CVE-2024-38816-PoC](https://github.com/WULINPIN/CVE-2024-38816-PoC)
 
 ### CVE-2024-38856 (2024-08-05)
 
@@ -4790,7 +4815,6 @@
 </code>
 
 - [truonghuuphuc/CVE-2024-39943-Poc](https://github.com/truonghuuphuc/CVE-2024-39943-Poc)
-- [A-little-dragon/CVE-2024-39943-Exploit](https://github.com/A-little-dragon/CVE-2024-39943-Exploit)
 
 ### CVE-2024-40080
 - [perras/CVE-2024-40080](https://github.com/perras/CVE-2024-40080)
@@ -4889,6 +4913,13 @@
 </code>
 
 - [KyssK00L/CVE-2024-40617](https://github.com/KyssK00L/CVE-2024-40617)
+
+### CVE-2024-40658 (2024-09-11)
+
+<code>In getConfig of SoftVideoDecoderOMXComponent.cpp, there is a possible out of bounds write due to a heap buffer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+</code>
+
+- [nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-40658](https://github.com/nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-40658)
 
 ### CVE-2024-40711 (2024-09-07)
 
@@ -5084,6 +5115,9 @@
 ### CVE-2024-43425
 - [RedTeamPentesting/moodle-rce-calculatedquestions](https://github.com/RedTeamPentesting/moodle-rce-calculatedquestions)
 
+### CVE-2024-43582
+- [jinxongwi/CVE-2024-43582-RCE](https://github.com/jinxongwi/CVE-2024-43582-RCE)
+
 ### CVE-2024-43917 (2024-08-29)
 
 <code>Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in TemplateInvaders TI WooCommerce Wishlist allows SQL Injection.This issue affects TI WooCommerce Wishlist: from n/a through 2.8.2.
@@ -5105,6 +5139,7 @@
 - [absholi7ly/CVE-2024-44000-LiteSpeed-Cache](https://github.com/absholi7ly/CVE-2024-44000-LiteSpeed-Cache)
 - [gbrsh/CVE-2024-44000](https://github.com/gbrsh/CVE-2024-44000)
 - [ifqygazhar/CVE-2024-44000-LiteSpeed-Cache](https://github.com/ifqygazhar/CVE-2024-44000-LiteSpeed-Cache)
+- [geniuszlyy/CVE-2024-44000](https://github.com/geniuszlyy/CVE-2024-44000)
 
 ### CVE-2024-44083 (2024-08-19)
 
@@ -5269,6 +5304,9 @@
 
 ### CVE-2024-45614
 - [ooooooo-q/puma_header_normalization-CVE-2024-45614](https://github.com/ooooooo-q/puma_header_normalization-CVE-2024-45614)
+
+### CVE-2024-46209
+- [h4ckr4v3n/CVE-2024-46209](https://github.com/h4ckr4v3n/CVE-2024-46209)
 
 ### CVE-2024-46256
 - [barttran2k/POC_CVE-2024-46256](https://github.com/barttran2k/POC_CVE-2024-46256)
@@ -6000,7 +6038,6 @@
 
 - [yuanjinyuyuyu/CVE-2023-3450](https://github.com/yuanjinyuyuyu/CVE-2023-3450)
 - [caopengyan/CVE-2023-3450](https://github.com/caopengyan/CVE-2023-3450)
-- [inviewp/CVE-2023-3450](https://github.com/inviewp/CVE-2023-3450)
 
 ### CVE-2023-3452 (2023-08-12)
 
@@ -6125,7 +6162,6 @@
 </code>
 
 - [mvpyyds/CVE-2023-4165](https://github.com/mvpyyds/CVE-2023-4165)
-- [inviewp/CVE-2023-4165](https://github.com/inviewp/CVE-2023-4165)
 
 ### CVE-2023-4166 (2023-08-05)
 
@@ -6133,7 +6169,6 @@
 </code>
 
 - [mvpyyds/CVE-2023-4166](https://github.com/mvpyyds/CVE-2023-4166)
-- [inviewp/CVE-2023-4166](https://github.com/inviewp/CVE-2023-4166)
 
 ### CVE-2023-4169 (2023-08-05)
 
@@ -6690,6 +6725,13 @@
 </code>
 
 - [dywsy21/CVE-2023-6350_Reproduction](https://github.com/dywsy21/CVE-2023-6350_Reproduction)
+
+### CVE-2023-6421 (2024-01-01)
+
+<code>The Download Manager WordPress plugin before 3.2.83 does not protect file download's passwords, leaking it upon receiving an invalid one.
+</code>
+
+- [RandomRobbieBF/CVE-2023-6421](https://github.com/RandomRobbieBF/CVE-2023-6421)
 
 ### CVE-2023-6444 (2024-03-11)
 
@@ -8307,7 +8349,7 @@
 
 - [nuts7/CVE-2023-27372](https://github.com/nuts7/CVE-2023-27372)
 - [Chocapikk/CVE-2023-27372](https://github.com/Chocapikk/CVE-2023-27372)
-- [Jhonsonwannaa/CVE-2023-27372](https://github.com/Jhonsonwannaa/CVE-2023-27372)
+- [dream434/CVE-2023-27372](https://github.com/dream434/CVE-2023-27372)
 - [0SPwn/CVE-2023-27372-PoC](https://github.com/0SPwn/CVE-2023-27372-PoC)
 - [izzz0/CVE-2023-27372-POC](https://github.com/izzz0/CVE-2023-27372-POC)
 - [ThatNotEasy/CVE-2023-27372](https://github.com/ThatNotEasy/CVE-2023-27372)
@@ -8920,6 +8962,9 @@
 </code>
 
 - [Toxich4/CVE-2023-30459](https://github.com/Toxich4/CVE-2023-30459)
+
+### CVE-2023-30486
+- [RandomRobbieBF/CVE-2023-30486](https://github.com/RandomRobbieBF/CVE-2023-30486)
 
 ### CVE-2023-30533 (2023-04-24)
 
@@ -12657,7 +12702,6 @@
 
 - [vnxdtzip/CVE-2023-47253](https://github.com/vnxdtzip/CVE-2023-47253)
 - [OpenXP-Research/CVE-2023-47253](https://github.com/OpenXP-Research/CVE-2023-47253)
-- [inviewp/Qualitor_CVE-2023-47253](https://github.com/inviewp/Qualitor_CVE-2023-47253)
 
 ### CVE-2023-47355 (2024-02-05)
 
@@ -13301,6 +13345,7 @@
 - [snyk-labs/CVE-2023-50164-POC](https://github.com/snyk-labs/CVE-2023-50164-POC)
 - [sunnyvale-it/CVE-2023-50164-PoC](https://github.com/sunnyvale-it/CVE-2023-50164-PoC)
 - [AsfandAliMemon25/CVE-2023-50164Analysis-](https://github.com/AsfandAliMemon25/CVE-2023-50164Analysis-)
+- [NikitaPark/CVE-2023-50164-PoC](https://github.com/NikitaPark/CVE-2023-50164-PoC)
 
 ### CVE-2023-50226 (2024-05-03)
 
@@ -21360,13 +21405,6 @@
 
 - [d0rb/CVE-2021-3773](https://github.com/d0rb/CVE-2021-3773)
 
-### CVE-2021-3831 (2021-12-14)
-
-<code>gnuboard5 is vulnerable to Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
-</code>
-
-- [aratane/CVE-2021-3831](https://github.com/aratane/CVE-2021-3831)
-
 ### CVE-2021-3864 (2022-08-26)
 
 <code>A flaw was found in the way the dumpable flag setting was handled when certain SUID binaries executed its descendants. The prerequisite is a SUID binary that sets real UID equal to effective UID, and real GID equal to effective GID. The descendant will then have a dumpable value set to 1. As a result, if the descendant process crashes and core_pattern is set to a relative value, its core dump is stored in the current directory with uid:gid permissions. An unprivileged local user with eligible root SUID binary could use this flaw to place core dumps into root-owned directories, potentially resulting in escalation of privileges.
@@ -22021,6 +22059,7 @@
 - [tiagob0b/CVE-2021-22005](https://github.com/tiagob0b/CVE-2021-22005)
 - [Jun-5heng/CVE-2021-22005](https://github.com/Jun-5heng/CVE-2021-22005)
 - [shmilylty/cve-2021-22005-exp](https://github.com/shmilylty/cve-2021-22005-exp)
+- [timb-machine-mirrors/testanull-CVE-2021-22005.py](https://github.com/timb-machine-mirrors/testanull-CVE-2021-22005.py)
 - [InventorMAO/cve-2021-22005](https://github.com/InventorMAO/cve-2021-22005)
 
 ### CVE-2021-22006 (2021-09-23)
@@ -25387,7 +25426,7 @@
 - [K3ysTr0K3R/CVE-2021-42013-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2021-42013-EXPLOIT)
 - [BassoNicolas/CVE-2021-42013](https://github.com/BassoNicolas/CVE-2021-42013)
 - [rafifdna/CVE-2021-42013](https://github.com/rafifdna/CVE-2021-42013)
-- [Jhonsonwannaa/cve-2021-42013-apache](https://github.com/Jhonsonwannaa/cve-2021-42013-apache)
+- [dream434/cve-2021-42013-apache](https://github.com/dream434/cve-2021-42013-apache)
 - [bananoname/cve-2021-42013](https://github.com/bananoname/cve-2021-42013)
 
 ### CVE-2021-42056 (2022-06-24)
@@ -29234,6 +29273,7 @@
 - [0dayCTF/CVE-2020-9484](https://github.com/0dayCTF/CVE-2020-9484)
 - [Disturbante/CVE-2020-9484](https://github.com/Disturbante/CVE-2020-9484)
 - [deathquote/CVE-2020-9484](https://github.com/deathquote/CVE-2020-9484)
+- [savsch/PoC_CVE-2020-9484](https://github.com/savsch/PoC_CVE-2020-9484)
 
 ### CVE-2020-9495 (2020-06-19)
 
@@ -32292,6 +32332,13 @@
 </code>
 
 - [ozkanbilge/Apache-Exploit-2019](https://github.com/ozkanbilge/Apache-Exploit-2019)
+
+### CVE-2019-0217 (2019-04-08)
+
+<code>In Apache HTTP Server 2.4 release 2.4.38 and prior, a race condition in mod_auth_digest when running in a threaded server could allow a user with valid credentials to authenticate using another username, bypassing configured access control restrictions.
+</code>
+
+- [savsch/PoC_CVE-2019-0217](https://github.com/savsch/PoC_CVE-2019-0217)
 
 ### CVE-2019-0227 (2019-05-01)
 
@@ -40270,7 +40317,7 @@
 - [SeasonLeague/CVE-2017-5487](https://github.com/SeasonLeague/CVE-2017-5487)
 - [Ravindu-Priyankara/CVE-2017-5487-vulnerability-on-NSBM](https://github.com/Ravindu-Priyankara/CVE-2017-5487-vulnerability-on-NSBM)
 - [K3ysTr0K3R/CVE-2017-5487-EXPLOIT](https://github.com/K3ysTr0K3R/CVE-2017-5487-EXPLOIT)
-- [Jhonsonwannaa/CVE-2017-5487](https://github.com/Jhonsonwannaa/CVE-2017-5487)
+- [dream434/CVE-2017-5487](https://github.com/dream434/CVE-2017-5487)
 
 ### CVE-2017-5633 (2017-03-06)
 
@@ -41149,7 +41196,7 @@
 - [p1ckzi/CVE-2017-9841](https://github.com/p1ckzi/CVE-2017-9841)
 - [jax7sec/CVE-2017-9841](https://github.com/jax7sec/CVE-2017-9841)
 - [mileticluka1/eval-stdin](https://github.com/mileticluka1/eval-stdin)
-- [Jhonsonwannaa/CVE-2017-9841-](https://github.com/Jhonsonwannaa/CVE-2017-9841-)
+- [dream434/CVE-2017-9841-](https://github.com/dream434/CVE-2017-9841-)
 - [MadExploits/PHPunit-Exploit](https://github.com/MadExploits/PHPunit-Exploit)
 - [MrG3P5/CVE-2017-9841](https://github.com/MrG3P5/CVE-2017-9841)
 - [Chocapikk/CVE-2017-9841](https://github.com/Chocapikk/CVE-2017-9841)
