@@ -436,6 +436,7 @@
 - [sxyrxyy/CVE-2024-1709-ConnectWise-ScreenConnect-Authentication-Bypass](https://github.com/sxyrxyy/CVE-2024-1709-ConnectWise-ScreenConnect-Authentication-Bypass)
 - [cjybao/CVE-2024-1709-and-CVE-2024-1708](https://github.com/cjybao/CVE-2024-1709-and-CVE-2024-1708)
 - [AhmedMansour93/Event-ID-229-Rule-Name-SOC262-CVE-2024-1709-](https://github.com/AhmedMansour93/Event-ID-229-Rule-Name-SOC262-CVE-2024-1709-)
+- [AMRICHASFUCK/Mass-CVE-2024-1709](https://github.com/AMRICHASFUCK/Mass-CVE-2024-1709)
 
 ### CVE-2024-1781 (2024-02-23)
 
@@ -2607,6 +2608,27 @@
 - [Bigb972003/cve-2024-24590](https://github.com/Bigb972003/cve-2024-24590)
 - [j3r1ch0123/CVE-2024-24590](https://github.com/j3r1ch0123/CVE-2024-24590)
 
+### CVE-2024-24684 (2024-05-28)
+
+<code>Multiple stack-based buffer overflow vulnerabilities exist in the readOFF functionality of libigl v2.5.0. A specially crafted .off file can lead to stack-based buffer overflow. An attacker can provide a malicious file to trigger this vulnerability.This vulnerability concerns the header parsing occuring while processing an `.off`  file via the `readOFF` function. \r\n\r\n\r\nWe can see above that at [0] a stack-based buffer called `comment` is defined with an hardcoded size of `1000 bytes`.  The call to `fscanf` at [1] is unsafe and if the first line of the header of the `.off` files is longer than 1000 bytes it will overflow the `header` buffer.
+</code>
+
+- [SpiralBL0CK/CVE-2024-24684](https://github.com/SpiralBL0CK/CVE-2024-24684)
+
+### CVE-2024-24685 (2024-05-28)
+
+<code>Multiple stack-based buffer overflow vulnerabilities exist in the readOFF functionality of libigl v2.5.0. A specially crafted .off file can lead to stack-based buffer overflow. An attacker can provide a malicious file to trigger this vulnerability.This vulnerability concerns the parsing of comments within the vertex section of an `.off`  file processed via the `readOFF` function.
+</code>
+
+- [SpiralBL0CK/CVE-2024-24685](https://github.com/SpiralBL0CK/CVE-2024-24685)
+
+### CVE-2024-24686 (2024-05-28)
+
+<code>Multiple stack-based buffer overflow vulnerabilities exist in the readOFF functionality of libigl v2.5.0. A specially crafted .off file can lead to stack-based buffer overflow. An attacker can provide a malicious file to trigger this vulnerability.This vulnerability concerns the parsing of comments within the faces section of an `.off`  file processed via the `readOFF` function.
+</code>
+
+- [SpiralBL0CK/CVE-2024-24686](https://github.com/SpiralBL0CK/CVE-2024-24686)
+
 ### CVE-2024-24760 (2024-02-02)
 
 <code>mailcow is a dockerized email package, with multiple containers linked in one bridged network. A security vulnerability has been identified in mailcow affecting versions &lt; 2024-01c. This vulnerability potentially allows attackers on the same subnet to connect to exposed ports of a Docker container, even when the port is bound to 127.0.0.1. The vulnerability has been addressed by implementing additional iptables/nftables rules. These rules drop packets for Docker containers on ports 3306, 6379, 8983, and 12345, where the input interface is not `br-mailcow` and the output interface is `br-mailcow`.
@@ -4450,6 +4472,7 @@
 - [Kayiyan/CVE-2024-37084-Poc](https://github.com/Kayiyan/CVE-2024-37084-Poc)
 - [vuhz/CVE-2024-37084](https://github.com/vuhz/CVE-2024-37084)
 - [Ly4j/CVE-2024-37084-Exp](https://github.com/Ly4j/CVE-2024-37084-Exp)
+- [A0be/CVE-2024-37084-Exp](https://github.com/A0be/CVE-2024-37084-Exp)
 
 ### CVE-2024-37085 (2024-06-25)
 
@@ -4958,6 +4981,7 @@
 </code>
 
 - [watchtowrlabs/CVE-2024-40711](https://github.com/watchtowrlabs/CVE-2024-40711)
+- [realstatus/CVE-2024-40711-Exp](https://github.com/realstatus/CVE-2024-40711-Exp)
 
 ### CVE-2024-40725 (2024-07-18)
 
@@ -5185,6 +5209,9 @@
 ### CVE-2024-44193
 - [mbog14/CVE-2024-44193](https://github.com/mbog14/CVE-2024-44193)
 
+### CVE-2024-44337
+- [Brinmon/CVE-2024-44337](https://github.com/Brinmon/CVE-2024-44337)
+
 ### CVE-2024-44346
 - [Shauryae1337/CVE-2024-44346](https://github.com/Shauryae1337/CVE-2024-44346)
 - [sahil3276/CVE-2024-44346](https://github.com/sahil3276/CVE-2024-44346)
@@ -5400,6 +5427,9 @@
 
 ### CVE-2024-47177
 - [referefref/cupspot-2024-47177](https://github.com/referefref/cupspot-2024-47177)
+
+### CVE-2024-48180
+- [J-0k3r/CVE-2024-48180](https://github.com/J-0k3r/CVE-2024-48180)
 
 ### CVE-2024-1642470
 - [Symbolexe/CVE-2024-1642470](https://github.com/Symbolexe/CVE-2024-1642470)
@@ -8076,6 +8106,9 @@
 
 - [glefait/CVE-2023-25355-25356](https://github.com/glefait/CVE-2023-25355-25356)
 
+### CVE-2023-25581
+- [p33d/CVE-2023-25581](https://github.com/p33d/CVE-2023-25581)
+
 ### CVE-2023-25610
 - [qi4L/CVE-2023-25610](https://github.com/qi4L/CVE-2023-25610)
 
@@ -10114,6 +10147,7 @@
 </code>
 
 - [Thampakon/CVE-2023-35674](https://github.com/Thampakon/CVE-2023-35674)
+- [SpiralBL0CK/Guide-and-theoretical-code-for-CVE-2023-35674](https://github.com/SpiralBL0CK/Guide-and-theoretical-code-for-CVE-2023-35674)
 
 ### CVE-2023-35687 (2023-09-11)
 
@@ -13437,6 +13471,7 @@
 - [ipuig/CVE-2023-50564](https://github.com/ipuig/CVE-2023-50564)
 - [rwexecute/CVE-2023-50564](https://github.com/rwexecute/CVE-2023-50564)
 - [thefizzyfish/CVE-2023-50564-pluck](https://github.com/thefizzyfish/CVE-2023-50564-pluck)
+- [Mrterrestrial/CVE-2023-50564](https://github.com/Mrterrestrial/CVE-2023-50564)
 
 ### CVE-2023-50596
 - [chandraprarikraj/CVE-2023-50596](https://github.com/chandraprarikraj/CVE-2023-50596)
@@ -16018,6 +16053,13 @@
 </code>
 
 - [jkroepke/CVE-2022-24348-2](https://github.com/jkroepke/CVE-2022-24348-2)
+
+### CVE-2022-24439 (2022-12-12)
+
+<code>All versions of package gitpython are vulnerable to Remote Code Execution (RCE) due to improper user input validation, which makes it possible to inject a maliciously crafted remote URL into the clone command. Exploiting this vulnerability is possible because the library makes external calls to git without sufficient sanitization of input arguments.
+</code>
+
+- [muhammadhendro/CVE-2022-24439](https://github.com/muhammadhendro/CVE-2022-24439)
 
 ### CVE-2022-24442 (2022-02-25)
 
@@ -24987,6 +25029,7 @@
 - [synacktiv/CVE-2021-40539](https://github.com/synacktiv/CVE-2021-40539)
 - [lpyzds/CVE-2021-40539](https://github.com/lpyzds/CVE-2021-40539)
 - [lpyydxs/CVE-2021-40539](https://github.com/lpyydxs/CVE-2021-40539)
+- [Bu0uCat/ADSelfService-Plus-RCE-CVE-2021-40539](https://github.com/Bu0uCat/ADSelfService-Plus-RCE-CVE-2021-40539)
 
 ### CVE-2021-40822 (2022-05-01)
 
@@ -25171,7 +25214,6 @@
 <code>Microsoft Exchange Server Spoofing Vulnerability
 </code>
 
-- [exploit-io/CVE-2021-41349](https://github.com/exploit-io/CVE-2021-41349)
 - [0xrobiul/CVE-2021-41349](https://github.com/0xrobiul/CVE-2021-41349)
 
 ### CVE-2021-41351 (2021-11-10)
@@ -25398,6 +25440,7 @@
 - [Zyx2440/Apache-HTTP-Server-2.4.50-RCE](https://github.com/Zyx2440/Apache-HTTP-Server-2.4.50-RCE)
 - [0xc4t/CVE-2021-41773](https://github.com/0xc4t/CVE-2021-41773)
 - [jkska23/Additive-Vulnerability-Analysis-CVE-2021-41773](https://github.com/jkska23/Additive-Vulnerability-Analysis-CVE-2021-41773)
+- [nwclasantha/Apache_2.4.29_Exploit](https://github.com/nwclasantha/Apache_2.4.29_Exploit)
 
 ### CVE-2021-41784 (2022-08-29)
 
@@ -26003,7 +26046,6 @@
 - [gps1949/CVE-2021-43798](https://github.com/gps1949/CVE-2021-43798)
 - [halencarjunior/grafana-CVE-2021-43798](https://github.com/halencarjunior/grafana-CVE-2021-43798)
 - [light-Life/CVE-2021-43798](https://github.com/light-Life/CVE-2021-43798)
-- [rnsss/CVE-2021-43798-poc](https://github.com/rnsss/CVE-2021-43798-poc)
 - [rodpwn/CVE-2021-43798-mass_scanner](https://github.com/rodpwn/CVE-2021-43798-mass_scanner)
 - [aymenbouferroum/CVE-2021-43798_exploit](https://github.com/aymenbouferroum/CVE-2021-43798_exploit)
 - [Jroo1053/GrafanaDirInclusion](https://github.com/Jroo1053/GrafanaDirInclusion)
@@ -29317,7 +29359,6 @@
 - [d3fudd/CVE-2020-9484_Exploit](https://github.com/d3fudd/CVE-2020-9484_Exploit)
 - [0dayCTF/CVE-2020-9484](https://github.com/0dayCTF/CVE-2020-9484)
 - [Disturbante/CVE-2020-9484](https://github.com/Disturbante/CVE-2020-9484)
-- [deathquote/CVE-2020-9484](https://github.com/deathquote/CVE-2020-9484)
 - [savsch/PoC_CVE-2020-9484](https://github.com/savsch/PoC_CVE-2020-9484)
 
 ### CVE-2020-9495 (2020-06-19)
@@ -45298,7 +45339,6 @@
 </code>
 
 - [terracatta/name_reverser](https://github.com/terracatta/name_reverser)
-- [heroku/heroku-CVE-2013-0156](https://github.com/heroku/heroku-CVE-2013-0156)
 - [josal/crack-0.1.8-fixed](https://github.com/josal/crack-0.1.8-fixed)
 - [bsodmike/rails-exploit-cve-2013-0156](https://github.com/bsodmike/rails-exploit-cve-2013-0156)
 - [R3dKn33-zz/CVE-2013-0156](https://github.com/R3dKn33-zz/CVE-2013-0156)
@@ -45323,7 +45363,7 @@
 <code>The JSON gem before 1.5.5, 1.6.x before 1.6.8, and 1.7.x before 1.7.7 for Ruby allows remote attackers to cause a denial of service (resource consumption) or bypass the mass assignment protection mechanism via a crafted JSON document that triggers the creation of arbitrary Ruby symbols or certain internal objects, as demonstrated by conducting a SQL injection attack against Ruby on Rails, aka &quot;Unsafe Object Creation Vulnerability.&quot;
 </code>
 
-- [heroku/heroku-CVE-2013-0269](https://github.com/heroku/heroku-CVE-2013-0269)
+- [danring/heroku-CVE-2013-0269](https://github.com/danring/heroku-CVE-2013-0269)
 
 ### CVE-2013-0303 (2014-03-23)
 
@@ -45331,13 +45371,6 @@
 </code>
 
 - [CiscoCXSecurity/ownCloud_RCE_CVE-2013-0303](https://github.com/CiscoCXSecurity/ownCloud_RCE_CVE-2013-0303)
-
-### CVE-2013-0333 (2013-01-30)
-
-<code>lib/active_support/json/backends/yaml.rb in Ruby on Rails 2.3.x before 2.3.16 and 3.0.x before 3.0.20 does not properly convert JSON data to YAML data for processing by a YAML parser, which allows remote attackers to execute arbitrary code, conduct SQL injection attacks, or bypass authentication via crafted data that triggers unsafe decoding, a different vulnerability than CVE-2013-0156.
-</code>
-
-- [heroku/heroku-CVE-2013-0333](https://github.com/heroku/heroku-CVE-2013-0333)
 
 ### CVE-2013-225
 - [PentestinGxRoot/ShellEvil](https://github.com/PentestinGxRoot/ShellEvil)
@@ -45663,6 +45696,8 @@
 - [suedadam/ntpscanner](https://github.com/suedadam/ntpscanner)
 - [sepehrdaddev/ntpdos](https://github.com/sepehrdaddev/ntpdos)
 - [0xhav0c/CVE-2013-5211](https://github.com/0xhav0c/CVE-2013-5211)
+- [requiempentest/-exploit-check-CVE-2013-5211](https://github.com/requiempentest/-exploit-check-CVE-2013-5211)
+- [requiempentest/NTP_CVE-2013-5211](https://github.com/requiempentest/NTP_CVE-2013-5211)
 
 ### CVE-2013-5664 (2013-08-31)
 
@@ -46756,13 +46791,6 @@
 
 - [anthophilee/A2SV--SSL-VUL-Scan](https://github.com/anthophilee/A2SV--SSL-VUL-Scan)
 
-### CVE-2007-2426 (2007-05-02)
-
-<code>PHP remote file inclusion vulnerability in myfunctions/mygallerybrowser.php in the myGallery 1.4b4 and earlier plugin for WordPress allows remote attackers to execute arbitrary PHP code via a URL in the myPath parameter.
-</code>
-
-- [goudunz1/CVE-2007-2426](https://github.com/goudunz1/CVE-2007-2426)
-
 ### CVE-2007-2447 (2007-05-14)
 
 <code>The MS-RPC functionality in smbd in Samba 3.0.0 through 3.0.25rc3 allows remote attackers to execute arbitrary commands via shell metacharacters involving the (1) SamrChangePassword function, when the &quot;username map script&quot; smb.conf option is enabled, and allows remote authenticated users to execute commands via shell metacharacters involving other MS-RPC functions in the (2) remote printer and (3) file share management.
@@ -47297,6 +47325,13 @@
 </code>
 
 - [alt3kx/CVE-2001-1442](https://github.com/alt3kx/CVE-2001-1442)
+
+### CVE-2001-1473 (2005-04-21)
+
+<code>The SSH-1 protocol allows remote servers to conduct man-in-the-middle attacks and replay a client challenge response to a target server by creating a Session ID that matches the Session ID of the target, but which uses a public key pair that is weaker than the target's public key, which allows the attacker to compute the corresponding private key and use the target's Session ID with the compromised key pair to masquerade as the target.
+</code>
+
+- [p1ton3rr/poc-cve-2001-1473](https://github.com/p1ton3rr/poc-cve-2001-1473)
 
 ### CVE-2001-3389
 - [becrevex/Gaston](https://github.com/becrevex/Gaston)
